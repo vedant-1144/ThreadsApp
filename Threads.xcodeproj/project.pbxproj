@@ -200,18 +200,17 @@
 				844AAA112B85D53200B0D69A /* CurrentUserProfile */,
 				84A10C682AB73F3900047EB2 /* EditProfile */,
 				84606DEF2AB61CB500658A87 /* Model */,
-				84606DE52AB5EEF200658A87 /* View */,
-				846B8D092ABC7CBD00A8A865 /* ViewModel */,
+				84606DE52AB5EEF200658A87 /* UserProfile */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
 		};
-		84606DE52AB5EEF200658A87 /* View */ = {
+		84606DE52AB5EEF200658A87 /* UserProfile */ = {
 			isa = PBXGroup;
 			children = (
 				84606DE62AB5EEFC00658A87 /* ProfileView.swift */,
 			);
-			path = View;
+			path = UserProfile;
 			sourceTree = "<group>";
 		};
 		84606DEA2AB6193A00658A87 /* Components */ = {
@@ -229,13 +228,6 @@
 				84606DF02AB61CCC00658A87 /* ProfileThreadFilter.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		846B8D092ABC7CBD00A8A865 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		848C4F242B862B2B00CCB2CE /* Components */ = {

@@ -25,6 +25,8 @@
 		846B8D0B2ABC7CD000A8A865 /* CurrentUserProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846B8D0A2ABC7CD000A8A865 /* CurrentUserProfileViewModel.swift */; };
 		848C4F262B862B3A00CCB2CE /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C4F252B862B3A00CCB2CE /* ProfileHeaderView.swift */; };
 		848C4F282B862D3100CCB2CE /* UserContentListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C4F272B862D3100CCB2CE /* UserContentListView.swift */; };
+		848C4F2B2B877F6500CCB2CE /* EditProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C4F2A2B877F6500CCB2CE /* EditProfileViewModel.swift */; };
+		848C4F2D2B87817B00CCB2CE /* ImageUploader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848C4F2C2B87817B00CCB2CE /* ImageUploader.swift */; };
 		848FE3102AB819B900E887B2 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 848FE30F2AB819B900E887B2 /* FirebaseAuth */; };
 		848FE3122AB819B900E887B2 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 848FE3112AB819B900E887B2 /* FirebaseFirestore */; };
 		848FE3142AB819B900E887B2 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 848FE3132AB819B900E887B2 /* FirebaseFirestoreSwift */; };
@@ -63,6 +65,8 @@
 		846B8D0A2ABC7CD000A8A865 /* CurrentUserProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentUserProfileViewModel.swift; sourceTree = "<group>"; };
 		848C4F252B862B3A00CCB2CE /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		848C4F272B862D3100CCB2CE /* UserContentListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserContentListView.swift; sourceTree = "<group>"; };
+		848C4F2A2B877F6500CCB2CE /* EditProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewModel.swift; sourceTree = "<group>"; };
+		848C4F2C2B87817B00CCB2CE /* ImageUploader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUploader.swift; sourceTree = "<group>"; };
 		848FE3192AB81C4300E887B2 /* RegsitrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegsitrationViewModel.swift; sourceTree = "<group>"; };
 		848FE31B2AB81D6D00E887B2 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		84A10C6A2AB73F4E00047EB2 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
@@ -239,6 +243,14 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		848C4F292B877F5400CCB2CE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				848C4F2A2B877F6500CCB2CE /* EditProfileViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		848FE3172AB81BE700E887B2 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -260,6 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				84A10C692AB73F3E00047EB2 /* View */,
+				848C4F292B877F5400CCB2CE /* ViewModel */,
 			);
 			path = EditProfile;
 			sourceTree = "<group>";
@@ -397,6 +410,7 @@
 			isa = PBXGroup;
 			children = (
 				846B8D072ABC7B4C00A8A865 /* UserServices.swift */,
+				848C4F2C2B87817B00CCB2CE /* ImageUploader.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -513,6 +527,7 @@
 				848FE31A2AB81C4300E887B2 /* RegsitrationViewModel.swift in Sources */,
 				848FE31C2AB81D6D00E887B2 /* AuthService.swift in Sources */,
 				844AAA102B85218400B0D69A /* PreviewProvider.swift in Sources */,
+				848C4F2B2B877F6500CCB2CE /* EditProfileViewModel.swift in Sources */,
 				84A10C6B2AB73F4E00047EB2 /* EditProfileView.swift in Sources */,
 				84FC391A2AB4AC0E00FEB31E /* LoginView.swift in Sources */,
 				84606DE92AB5F09000658A87 /* ThreadCell.swift in Sources */,
@@ -524,6 +539,7 @@
 				84606DDE2AB5EE9500658A87 /* CreateThreadView.swift in Sources */,
 				844AAA0E2B851C3100B0D69A /* ExploreViewModel.swift in Sources */,
 				846B8D082ABC7B4C00A8A865 /* UserServices.swift in Sources */,
+				848C4F2D2B87817B00CCB2CE /* ImageUploader.swift in Sources */,
 				84606DF12AB61CCC00658A87 /* ProfileThreadFilter.swift in Sources */,
 				84D05D3B2AB89BE20040C36F /* ContentViewModel.swift in Sources */,
 				846B8D0B2ABC7CD000A8A865 /* CurrentUserProfileViewModel.swift in Sources */,

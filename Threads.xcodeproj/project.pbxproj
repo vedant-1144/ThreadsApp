@@ -11,6 +11,7 @@
 		842FFEB12B9A40B300934CDE /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842FFEB02B9A40B300934CDE /* Thread.swift */; };
 		842FFEB42B9A417D00934CDE /* CreateThreadViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842FFEB32B9A417D00934CDE /* CreateThreadViewModel.swift */; };
 		842FFEB62B9A41B200934CDE /* ThreadService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842FFEB52B9A41B200934CDE /* ThreadService.swift */; };
+		842FFEB92B9AEB8E00934CDE /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842FFEB82B9AEB8E00934CDE /* FeedViewModel.swift */; };
 		844579802AB9E28200D4BCED /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8445797F2AB9E28200D4BCED /* User.swift */; };
 		844AAA0E2B851C3100B0D69A /* ExploreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844AAA0D2B851C3100B0D69A /* ExploreViewModel.swift */; };
 		844AAA102B85218400B0D69A /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844AAA0F2B85218400B0D69A /* PreviewProvider.swift */; };
@@ -55,6 +56,7 @@
 		842FFEB02B9A40B300934CDE /* Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
 		842FFEB32B9A417D00934CDE /* CreateThreadViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateThreadViewModel.swift; sourceTree = "<group>"; };
 		842FFEB52B9A41B200934CDE /* ThreadService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadService.swift; sourceTree = "<group>"; };
+		842FFEB82B9AEB8E00934CDE /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		8445797F2AB9E28200D4BCED /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		844AAA0D2B851C3100B0D69A /* ExploreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewModel.swift; sourceTree = "<group>"; };
 		844AAA0F2B85218400B0D69A /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
@@ -114,6 +116,14 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
+		842FFEB72B9AEB7900934CDE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				842FFEB82B9AEB8E00934CDE /* FeedViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		844AAA0C2B851BD900B0D69A /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				84606DD42AB5EE0400658A87 /* View */,
+				842FFEB72B9AEB7900934CDE /* ViewModel */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -496,7 +507,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					84FC38FE2AB4AB4800FEB31E = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -561,6 +572,7 @@
 				84606DEE2AB61A0A00658A87 /* UserCell.swift in Sources */,
 				84606DDE2AB5EE9500658A87 /* CreateThreadView.swift in Sources */,
 				844AAA0E2B851C3100B0D69A /* ExploreViewModel.swift in Sources */,
+				842FFEB92B9AEB8E00934CDE /* FeedViewModel.swift in Sources */,
 				846B8D082ABC7B4C00A8A865 /* UserServices.swift in Sources */,
 				848C4F2D2B87817B00CCB2CE /* ImageUploader.swift in Sources */,
 				84606DF12AB61CCC00658A87 /* ProfileThreadFilter.swift in Sources */,
@@ -618,6 +630,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -678,6 +691,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

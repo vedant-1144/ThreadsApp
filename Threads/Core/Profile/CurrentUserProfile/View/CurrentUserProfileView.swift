@@ -39,7 +39,9 @@ struct CurrentUserProfileView: View {
                     }
 
                     //MARK: - User Content List View
-                    UserContentListView()
+                    if let user = currentUser {
+                        UserContentListView(user: user)
+                    }
                 }
             }
             .sheet(isPresented: $showEditProfile, content: {
